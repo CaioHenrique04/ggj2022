@@ -55,6 +55,11 @@ nav {
   padding-bottom: 15px;
 }
 
+.logo-unifeob {
+  width: 150px;
+  margin-left: 20px;
+}
+
 .hamburguer {
   background: transparent;
   border: 0;
@@ -144,6 +149,22 @@ nav ul li a:hover {
   user-select: none;
   margin-bottom: 160px;
   width: 100%;
+}
+
+.video {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 160px;
+}
+
+.inside-video {
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .about {
@@ -810,7 +831,8 @@ footer {
   .rules,
   .tools,
   .workshops,
-  .partners {
+  .partners,
+  .video {
     margin-bottom: 60px;
   }
 }
